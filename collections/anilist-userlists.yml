@@ -11,7 +11,7 @@ collections:
     visible_home: false
     visible_shared: false
     url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/watching.png
-    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg
 
   Anilist - Completed:
     smart_filter:
@@ -25,7 +25,7 @@ collections:
     visible_home: false
     visible_shared: false
     url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/completed.png
-    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg
 
   Anilist - Planning:
     smart_filter:
@@ -39,7 +39,7 @@ collections:
     visible_home: false
     visible_shared: false
     url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/planning.png
-    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg
 
   Anilist - Paused:
     smart_filter:
@@ -53,7 +53,7 @@ collections:
     visible_home: false
     visible_shared: false
     url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/paused.png
-    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg
 
   Anilist - Dropped:
     smart_filter:
@@ -67,4 +67,4 @@ collections:
     visible_home: false
     visible_shared: false
     url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/dropped.png
-    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg
