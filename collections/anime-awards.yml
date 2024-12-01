@@ -1,0 +1,16 @@
+templates:
+  anime-awards:
+    ignore_blank_results: true
+    plex_search:
+      all:
+        label: <<label>>
+    sort_title: |-
+      |animes-season - <<year>> - <<season>>
+    sync_mode: sync
+    collection_mode: hide
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anime-awards/<<collection_name>>.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/anime_awards_background.jpg
+
+collections:
+  Anime-Awards:
+    template: { name: anime-awards, label: AA Winner}
