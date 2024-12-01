@@ -1,0 +1,70 @@
+collections:
+  Anilist - Watching:
+    smart_filter:
+      all:
+        label: Watching
+      sort_by: title.asc
+    sort_title: |-
+      !3 - Anilist-1
+    collection_mode: hide
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/watching.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+
+  Anilist - Completed:
+    smart_filter:
+      all:
+        label: Completed
+      sort_by: title.asc
+    sort_title: |-
+      !3 - Anilist-2
+    collection_mode: hide
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/completed.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+
+  Anilist - Planning:
+    smart_filter:
+      all:
+        label: Planning
+      sort_by: title.asc
+    sort_title: |-
+      !3 - Anilist-3
+    collection_mode: hide
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/planning.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+
+  Anilist - Paused:
+    smart_filter:
+      all:
+        label: Paused
+      sort_by: title.asc
+    sort_title: |-
+      !3 - Anilist-4
+    collection_mode: hide
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/paused.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
+
+  Anilist - Dropped:
+    smart_filter:
+      all:
+        label: Dropped
+      sort_by: title.asc
+    sort_title: |-
+      !3 - Anilist-5
+    collection_mode: hide
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anilist-userlists/dropped.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/collection_anime_background_1.jpg
