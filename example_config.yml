@@ -224,7 +224,8 @@ libraries:
     - default: imdb
       schedule: weekly(thursday|sunday|tuesday)
 
-    remove_overlays: true
+    remove_overlays: false
+    reapply_overlays: false
     schedule_overlays: weekly(saturday|tuesday|thursday)
     overlay_files:
     - default: resolution                                                        # 1, 4
