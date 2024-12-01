@@ -4,3 +4,5 @@ config.yml
 /logs
 UUID
 /assets
+/overlays/*Original Posters
+/overlays/temp.jpg

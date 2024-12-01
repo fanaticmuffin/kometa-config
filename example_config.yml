@@ -47,28 +47,28 @@ libraries:
 # Can use -url or -file and point locally.
 # EXAMPLE
 #    - file: kometa-config//overlays/anime-awards.yml
-#    - url:  https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-awards.yml
+#    - url:  https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-awards.yml
 # un/comment out anything you don't want
     
 # THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO #  # THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO # # THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO #
 # Add an anime awards icon to shows
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-awards.yml
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-awards.yml
 # Add an anime awards icon at a SEASON LEVEL
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-awards-seasons.yml
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-awards-seasons.yml
 # Add text overlays with your anilist status (watching, planned, dropped, etc)
-#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anilist-userlists.yml
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anilist-userlists.yml
 # Add text overlays at a season level with your anilist status (watching, planned, dropped, etc)
-#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anilist-userlists-seasons.yml
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anilist-userlists-seasons.yml
 # Add text overlay at a SEASON LEVEL with the season it aired (Summer 2020)
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-seasons.yml
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-seasons.yml
 # Add ratings overlay
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-rating.yml
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-rating.yml
 # Add anilist ratings at a SEASON LEVEL
-#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anilist-rating-seasons.yml
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anilist-rating-seasons.yml
 # Add MAL ratings at a SEASON LEVEL
-#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/mal-ratings-seasons.yml
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/mal-ratings-seasons.yml
 # Add status text (Airing, Ended, etc)
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-status.yml
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-status.yml
     
  
   JP Films:
@@ -88,8 +88,8 @@ libraries:
     reapply_overlays: false
     schedule_overlays: weekly(saturday|tuesday)
     overlay_files:
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-rating.yml
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-awards.yml
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-rating.yml
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-awards.yml
     
 ################### --- NOTHING PAST THIS POINT NEEDS ROMAJI RENAMER AND IS BASIC KOMETA STUFF --- ######################
     - default: resolution

@@ -11499,9 +11499,9 @@ metadata:
       1:
         title: |-
           Sengoku Youko
-        label: 2024 Summer,2024 Winter
-        label.remove: Score
-    audience_rating: 6.9
+        label: Score,2024 Summer,2024 Winter
+        user_rating: 6.9
+    audience_rating: -6.9
     critic_rating: 7.2
     label: Airing
     label.remove: Planned,Ended
