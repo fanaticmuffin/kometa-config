@@ -6,7 +6,7 @@ collections:
         unplayed: true
       sort_by: audience_rating.desc
     sort_title: |-
-      zzzzz1 - Top Unseen Anime Films
+      !1 - Top Unseen Anime Films
     collection_mode: hide
     visible_library: true
     visible_home: true
@@ -19,7 +19,7 @@ collections:
         director: Hayao Miyazaki
       sort_by: release.asc
     sort_title: |-
-      Studio Ghibli
+      !2 - Studio Ghibli
     collection_mode: hide_items
     visible_library: false
     visible_home: false
