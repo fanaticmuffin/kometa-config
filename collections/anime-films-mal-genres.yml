@@ -14,7 +14,7 @@
 templates:
   MAL Genre:
     mal_search:
-      limit: 250
+      limit: 1000 # setting this too high or removing will make kometa runs take a LONG time
       type: movie
       sort_by: score.desc
       genre_id: <<genre_id>>
