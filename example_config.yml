@@ -96,6 +96,8 @@ libraries:
     - default: audio_codec
     - default: mediastinger
     - default: streaming
+
+
   TV Shows:
     collection_files:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-charts.yml
@@ -150,7 +152,9 @@ libraries:
       mass_user_rating_update: mdb_tomatoes                              # 4 This operation will update the user rating in plex with Rotten Tomatoes ratings information gathered through mdblist.com (mdblist config required)
       mass_critic_rating_update: imdb                                    # 5 This operation will update the critic rating in plex with IMDb ratings information
       mass_audience_rating_update: tmdb                                  # 6 This operation will update the audience rating in plex with TMDb ratings information
-  JP TV Shows:                            # These are names of libraries in your Plex
+
+
+  JP TV Shows:
     collection_files:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-charts.yml
       schedule: weekly(thursday|sunday|tuesday)
@@ -209,7 +213,9 @@ libraries:
       mass_user_rating_update: mdb_tomatoes                              # 4 This operation will update the user rating in plex with Rotten Tomatoes ratings information gathered through mdblist.com (mdblist config required)
       mass_critic_rating_update: imdb                                    # 5 This operation will update the critic rating in plex with IMDb ratings information
       mass_audience_rating_update: tmdb                                  # 6 This operation will update the audience rating in plex with TMDb ratings information
-  Films:                            # These are names of libraries in your Plex
+
+      
+  Films: 
     collection_files:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/movies-charts.yml
       schedule: weekly(thursday|sunday|tuesday)

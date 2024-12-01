@@ -5,4 +5,5 @@ config.yml
 UUID
 /assets
 /overlays/*Original Posters
-/overlays/temp.jpg
+/overlays/*.jpg
+/overlays/*.png
