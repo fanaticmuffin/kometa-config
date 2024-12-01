@@ -1,0 +1,48 @@
+templates:
+  Status-Animes:
+    default:
+      overlay: <<overlay_name>>
+      horizontal_offset: 15
+      horizontal_align: right
+      vertical_offset: 30
+      vertical_align: bottom
+    overlay:
+      name: text(<<overlay_name>>)
+      group: status-animes
+      weight: <<weight>>
+      font: fonts/Roboto-Bold.ttf
+      font_size: 60
+      back_color: "#00000099"
+      back_radius: 30
+      back_width: 350
+      back_height: 120
+      horizontal_offset: <<horizontal_offset>>
+      horizontal_align: <<horizontal_align>>
+      vertical_offset: <<vertical_offset>>
+      vertical_align: <<vertical_align>>
+
+overlays:
+
+  Airing:
+    template:
+      - name: Status-Animes
+        weight: 30
+    plex_search:
+      all:
+        label: Airing
+
+  Renewed:
+    template:
+      - name: Status-Animes
+        weight: 20
+    plex_search:
+      all:
+        label: Planned
+
+  Ended:
+    template:
+      - name: Status-Animes
+        weight: 10
+    plex_search:
+      all:
+        label: Ended
