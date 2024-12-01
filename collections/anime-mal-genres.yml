@@ -22,84 +22,84 @@ templates:
     collection_mode: hide
     sort_title: |-
       |zzzzz - <<genre>> - <<genre_id>>
-    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/genres/<<genre>>.png
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/genres/<<poster>>.png
     url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg #placeholder
     sync_mode: sync 
 
 collections:   
   Action:
-    template: { name: MAL Genre, genre: Action, genre_id: 1, }
+    template: { name: MAL Genre, genre: Action, genre_id: 1, poster: Action, }
   Adventure:
-    template: { name: MAL Genre, genre: Adventure, genre_id: 2, }
+    template: { name: MAL Genre, genre: Adventure, genre_id: 2, poster: Adventure, }
   Boys Love:
-    template: { name: MAL Genre, genre: Boys Love, genre_id: 28, }
+    template: { name: MAL Genre, genre: Boys Love, genre_id: 28, poster: Boys_Love, }
   Cars:
-    template: { name: MAL Genre, genre: Cars, genre_id: 3, }
+    template: { name: MAL Genre, genre: Cars, genre_id: 3, poster: Cars, }
   Comedy:
-    template: { name: MAL Genre, genre: Comedy, genre_id: 4, }
+    template: { name: MAL Genre, genre: Comedy, genre_id: 4, poster: Comedy, }
   Demons:
-    template: { name: MAL Genre, genre: Demons, genre_id: 6, }
+    template: { name: MAL Genre, genre: Demons, genre_id: 6, poster: Demons }
   Drama:
-    template: { name: MAL Genre, genre: Drama, genre_id: 8, }
+    template: { name: MAL Genre, genre: Drama, genre_id: 8, poster: Drama, }
   Ecchi:
-    template: { name: MAL Genre, genre: Ecchi, genre_id: 9, }
+    template: { name: MAL Genre, genre: Ecchi, genre_id: 9, poster: Echhi, }
   Erotica:
-    template: { name: MAL Genre, genre: Erotica, genre_id: 49, }
+    template: { name: MAL Genre, genre: Erotica, genre_id: 49, poster: Erotica, }
   Fantasy:
-    template: { name: MAL Genre, genre: Fantasy, genre_id: 10, }
+    template: { name: MAL Genre, genre: Fantasy, genre_id: 10, poster: Fantasy, }
   Harem:
-    template: { name: MAL Genre, genre: Harem, genre_id: 35, }
+    template: { name: MAL Genre, genre: Harem, genre_id: 35, poster: Harem, }
   Hentai:
-    template: { name: MAL Genre, genre: Hentai, genre_id: 12, }
+    template: { name: MAL Genre, genre: Hentai, genre_id: 12, poster: Hentai, }
   Historical:
-    template: { name: MAL Genre, genre: Historical, genre_id: 13, }
+    template: { name: MAL Genre, genre: Historical, genre_id: 13, poster: Historical, }
   Horror:
-    template: { name: MAL Genre, genre: Horror, genre_id: 14, }
+    template: { name: MAL Genre, genre: Horror, genre_id: 14, poster: Horror, }
   Game:
-    template: { name: MAL Genre, genre: Game, genre_id: 11, }
+    template: { name: MAL Genre, genre: Game, genre_id: 11, poster: Game, }
   Girls Love:
-    template: { name: MAL Genre, genre: Girls Love, genre_id: 26, }
+    template: { name: MAL Genre, genre: Girls Love, genre_id: 26, poster: Girls_Love, }
   Gourmet:
-    template: { name: MAL Genre, genre: Gourmet, genre_id: 47, }
+    template: { name: MAL Genre, genre: Gourmet, genre_id: 47, poster: Gourmet, }
   Martial Arts:
-    template: { name: MAL Genre, genre: Martial Arts, genre_id: 17, }
+    template: { name: MAL Genre, genre: Martial Arts, genre_id: 17, poster: Martial_Arts, }
   Mecha:
-    template: { name: MAL Genre, genre: Mecha, genre_id: 18, }
+    template: { name: MAL Genre, genre: Mecha, genre_id: 18, poster: Mecha, }
   Military:
-    template: { name: MAL Genre, genre: Military, genre_id: 38, }
+    template: { name: MAL Genre, genre: Military, genre_id: 38, poster: Military, }
   Music:
-    template: { name: MAL Genre, genre: Music, genre_id: 19, }
+    template: { name: MAL Genre, genre: Music, genre_id: 19, poster: Music, }
   Mystery:
-    template: { name: MAL Genre, genre: Mystery, genre_id: 7, }
+    template: { name: MAL Genre, genre: Mystery, genre_id: 7, poster: Mystery, }
   Parody:
-    template: { name: MAL Genre, genre: Parody, genre_id: 20, }
+    template: { name: MAL Genre, genre: Parody, genre_id: 20, poster: Parody, }
   Police:
-    template: { name: MAL Genre, genre: Police, genre_id: 39, }
+    template: { name: MAL Genre, genre: Police, genre_id: 39, poster: Police, }
   Psychological:
-    template: { name: MAL Genre, genre: Psychological, genre_id: 40, }
+    template: { name: MAL Genre, genre: Psychological, genre_id: 40, poster: Psychological, }
   Romance:
-    template: { name: MAL Genre, genre: Romance, genre_id: 22, }
+    template: { name: MAL Genre, genre: Romance, genre_id: 22, poster: Romance, }
   Samurai:
-    template: { name: MAL Genre, genre: Samurai, genre_id: 21, }
+    template: { name: MAL Genre, genre: Samurai, genre_id: 21, poster: Samurai, }
   School:
-    template: { name: MAL Genre, genre: School, genre_id: 23, }
+    template: { name: MAL Genre, genre: School, genre_id: 23, poster: School, }
   Sci-Fi:
-    template: { name: MAL Genre, genre: Sci-Fi, genre_id: 24, }
+    template: { name: MAL Genre, genre: Sci-Fi, genre_id: 24, poster: Sci-Fi, }
   Shoujo:
-    template: { name: MAL Genre, genre: Shoujo, genre_id: 25, }
+    template: { name: MAL Genre, genre: Shoujo, genre_id: 25, poster: Shoujo, }
   Shounen:
-    template: { name: MAL Genre, genre: Shounen, genre_id: 27, }
+    template: { name: MAL Genre, genre: Shounen, genre_id: 27, poster: Shounen, }
   Slice of Life:
-    template: { name: MAL Genre, genre: Slice of Life, genre_id: 36, }
+    template: { name: MAL Genre, genre: Slice of Life, genre_id: 36, poster: Slice_of_Life, }
   Space:
-    template: { name: MAL Genre, genre: Space, genre_id: 29, }
+    template: { name: MAL Genre, genre: Space, genre_id: 29, poster: Space, }
   Sports:
-    template: { name: MAL Genre, genre: Sports, genre_id: 30, }
+    template: { name: MAL Genre, genre: Sports, genre_id: 30, poster: Sports, }
   Supernatural:
-    template: { name: MAL Genre, genre: Supernatural, genre_id: 37, }
+    template: { name: MAL Genre, genre: Supernatural, genre_id: 37, poster: Supernatural, }
   Super Power:
-    template: { name: MAL Genre, genre: Super Power, genre_id: 31, }
+    template: { name: MAL Genre, genre: Super Power, genre_id: 31, poster: Super_Power, }
   Thriller:
-    template: { name: MAL Genre, genre: Thriller, genre_id: 41, }
+    template: { name: MAL Genre, genre: Thriller, genre_id: 41, poster: Thriller, }
   Vampire:
-    template: { name: MAL Genre, genre: Vampire, genre_id: 32, }
+    template: { name: MAL Genre, genre: Vampire, genre_id: 32, poster: Vampire, }

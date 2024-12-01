@@ -1,0 +1,406 @@
+## This file is a example remove the example_ to use the file
+
+libraries:
+  Anime:
+    metadata_files:
+# THE METADATA COMES FROM HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER AND IS REQUIRED FOR SOME OF THE OVERLAYS/COLLECTIONS BIG THANKS TO ARIALZ FOR MAKING THIS AND ALOT OF THE OVERLAYS/COLLECTIONS IN THIS
+# Can use -url or - file just note if you use -url you will need to fork or you will only have metadata for anime that you have in common with my list.
+    - file: kometa-config/metadata/anilist-animes.yml
+      schedule: weekly(thursday|sunday)
+
+    collection_files:
+# Can use -url or -file and point locally.
+# EXAMPLE
+#    - file: kometa-config/collections/anime-awards.yml
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-awards.yml
+# comment out/remove/edit schedule: to run as you want or everyrun.
+# un/comment out anything you don't want
+      
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anilist-userlists.yml
+#      schedule: weekly(thursday|sunday)
+   
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-mal-genres.yml
+#      schedule: weekly(thursday|sunday)
+
+   
+# THE NEXT COLLECTIONS REQUIRE ROMAJI-RENAMER PLEASE SEE HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO # # THE NEXT COLLECTIONS REQUIRE ROMAJI-RENAMER PLEASE SEE HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO # # THE NEXT COLLECTIONS REQUIRE ROMAJI-RENAMER PLEASE SEE HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO #
+
+# Creates smart collections of anime based on labels
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-smart-collections.yml
+      schedule: weekly(thursday|sunday)
+# Creates MULTIPLE collections for the SEASONS and YEAR (Summer 2020, Winter 2020, etc) of anime. This is a SEASON LEVEL collection
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-seasons.yml
+      schedule: weekly(thursday|sunday) 
+# Creates a collection of animes with the label anime awards
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-awards.yml
+      schedule: weekly(thursday|sunday)
+
+#################################################### --- END OF COLLECTION SEGMENT --- ###########################################
+
+# Set this to true to reset/remove overlays
+    remove_overlays: false
+# Force refreshes the overlays usefull sometimes  
+    reapply_overlays: false
+# Schedule for overlays to run change to what you want or comment out
+    schedule_overlays: weekly(saturday|tuesday)
+    overlay_files:
+# Can use -url or -file and point locally.
+# EXAMPLE
+#    - file: kometa-config//overlays/anime-awards.yml
+#    - url:  https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-awards.yml
+# un/comment out anything you don't want
+    
+# THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO #  # THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO # # THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO #
+# Add an anime awards icon to shows
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-awards.yml
+# Add an anime awards icon at a SEASON LEVEL
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-awards-seasons.yml
+# Add text overlays with your anilist status (watching, planned, dropped, etc)
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anilist-userlists.yml
+# Add text overlays at a season level with your anilist status (watching, planned, dropped, etc)
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anilist-userlists-seasons.yml
+# Add text overlay at a SEASON LEVEL with the season it aired (Summer 2020)
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-seasons.yml
+# Add ratings overlay
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-rating.yml
+# Add anilist ratings at a SEASON LEVEL
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anilist-rating-seasons.yml
+# Add MAL ratings at a SEASON LEVEL
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/mal-ratings-seasons.yml
+# Add status text (Airing, Ended, etc)
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-status.yml
+    
+ 
+  JP Films:
+    metadata_files:
+# THE METADATA COMES FROM HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER AND IS REQUIRED FOR SOME OF THE OVERLAYS/COLLECTIONS BIG THANKS TO ARIALZ FOR MAKING THIS AND ALOT OF THE OVERLAYS/COLLECTIONS IN THIS
+# Can use -url or - file just note if you use -url you will need to fork or you will only have metadata for anime that you have in common with my list.
+    - file: kometa-config/metadata/anilist-movies.yml
+      schedule: weekly(thursday|sunday)
+
+    collection_files:
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-films-smart-collections.yml
+      schedule: weekly(thursday|sunday)
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-films-mal-genres.yml
+      schedule: weekly(thursday|sunday)
+
+    remove_overlays: false
+    reapply_overlays: false
+    schedule_overlays: weekly(saturday|tuesday)
+    overlay_files:
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-rating.yml
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/anime-awards.yml
+    
+################### --- NOTHING PAST THIS POINT NEEDS ROMAJI RENAMER AND IS BASIC KOMETA STUFF --- ######################
+    - default: resolution
+    - default: audio_codec
+    - default: mediastinger
+    - default: streaming
+  TV Shows:
+    collection_files:
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-charts.yml
+      schedule: weekly(thursday|sunday|tuesday)
+ #   - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-streaming.yml
+    #    schedule: weekly(thursday|sunday|tuesday)
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-networks.yml
+      schedule: weekly(sunday)
+
+    remove_overlays: false
+    reapply_overlays: false
+    schedule_overlays: weekly(saturday|tuesday)
+    overlay_files:
+    - default: mediastinger                                                      # 3
+    - default: ratings                                                           # 4, 5, 6
+      template_variables:
+        rating1: user                                                        # 4 as this is user and mass_user_rating_update: mdb_tomatoes
+        rating1_image: rt_tomato                                             # 4 as this is user and mass_user_rating_update: mdb_tomatoes
+        rating1_font: config/custom_fonts/Adlib.ttf                          # 4 local font accessible to Kometa
+        rating1_font_size: 63                                                # 4 adjusted font size to fit rating
+
+        rating2: critic                                                      # 5 as this is critic and mass_critic_rating_update: imdb
+        rating2_image: imdb                                                  # 5 as this is critic and mass_critic_rating_update: imdb
+        rating2_font: config/custom_fonts/Impact.ttf                         # 5 local font accessible to Kometa
+        rating2_font_size: 70                                                # 5 adjusted font size to fit rating
+
+        rating3: audience                                                    # 6 as this is audience and mass_audience_rating_update: tmdb
+        rating3_image: tmdb                                                  # 6 as this is audience and mass_audience_rating_update: tmdb
+        rating3_font: config/custom_fonts/Avenir_95_Black.ttf                # 6 local font accessible to Kometa
+        rating3_font_size: 70                                                # 6 adjusted font size to fit rating
+
+        horizontal_position: right                                           # the set of ratings is on the right of the poster
+    - default: streaming                                                         # 7
+    - default: resolution                                                        # 1
+      template_variables:
+        builder_level: episode
+    - default: audio_codec                                                       # 2
+      template_variables:
+        builder_level: episode
+    - default: video_format                                                      # 5
+      template_variables:
+        builder_level: episode
+    - default: runtimes                                                          # 7
+      template_variables:
+        builder_level: episode
+    - default: episode_info                                                    # 6
+      template_variables:
+        builder_level: episode
+#    - default: ribbon                                                        # 10, 11 Bottom right sash is used by more than one overlay so a weight for priority can be applied 
+    operations:
+      schedule: weekly(friday)
+      mass_user_rating_update: mdb_tomatoes                              # 4 This operation will update the user rating in plex with Rotten Tomatoes ratings information gathered through mdblist.com (mdblist config required)
+      mass_critic_rating_update: imdb                                    # 5 This operation will update the critic rating in plex with IMDb ratings information
+      mass_audience_rating_update: tmdb                                  # 6 This operation will update the audience rating in plex with TMDb ratings information
+  JP TV Shows:                            # These are names of libraries in your Plex
+    collection_files:
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-charts.yml
+      schedule: weekly(thursday|sunday|tuesday)
+ #   - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-streaming.yml
+    #    schedule: weekly(thursday|sunday|tuesday)
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-networks.yml
+      schedule: weekly(sunday)
+     
+# -defaults are basic pre made kometa collections
+    - default: basic
+      schedule: weekly(thursday|sunday|tuesday)
+    - default: imdb
+      schedule: weekly(thursday|sunday|tuesday)
+
+    remove_overlays: false
+    reapply_overlays: false
+    schedule_overlays: weekly(saturday|tuesday)
+    overlay_files:
+    - default: mediastinger                                                      # 3
+    - default: ratings                                                           # 4, 5, 6
+      template_variables:
+        rating1: user                                                        # 4 as this is user and mass_user_rating_update: mdb_tomatoes
+        rating1_image: rt_tomato                                             # 4 as this is user and mass_user_rating_update: mdb_tomatoes
+        rating1_font: config/custom_fonts/Adlib.ttf                          # 4 local font accessible to Kometa
+        rating1_font_size: 63                                                # 4 adjusted font size to fit rating
+
+        rating2: critic                                                      # 5 as this is critic and mass_critic_rating_update: imdb
+        rating2_image: imdb                                                  # 5 as this is critic and mass_critic_rating_update: imdb
+        rating2_font: config/custom_fonts/Impact.ttf                         # 5 local font accessible to Kometa
+        rating2_font_size: 70                                                # 5 adjusted font size to fit rating
+        rating3: audience                                                    # 6 as this is audience and mass_audience_rating_update: tmdb
+        rating3_image: tmdb                                                  # 6 as this is audience and mass_audience_rating_update: tmdb
+        rating3_font: config/custom_fonts/Avenir_95_Black.ttf                # 6 local font accessible to Kometa
+        rating3_font_size: 70                                                # 6 adjusted font size to fit rating
+
+        horizontal_position: right                                           # the set of ratings is on the right of the poster
+    - default: streaming                                                         # 7
+    - default: resolution                                                        # 1
+      template_variables:
+        builder_level: episode
+    - default: audio_codec                                                       # 2
+      template_variables:
+        builder_level: episode
+    - default: video_format                                                      # 5
+      template_variables:
+        builder_level: episode
+    - default: runtimes                                                          # 7
+      template_variables:
+        builder_level: episode
+    - default: episode_info                                                    # 6
+      template_variables:
+        builder_level: episode
+#    - default: ribbon                                                        # 10, 11 Bottom right sash is used by more than one overlay so a weight for priority can be applied 
+    operations:
+      schedule: weekly(friday)
+      mass_user_rating_update: mdb_tomatoes                              # 4 This operation will update the user rating in plex with Rotten Tomatoes ratings information gathered through mdblist.com (mdblist config required)
+      mass_critic_rating_update: imdb                                    # 5 This operation will update the critic rating in plex with IMDb ratings information
+      mass_audience_rating_update: tmdb                                  # 6 This operation will update the audience rating in plex with TMDb ratings information
+  Films:                            # These are names of libraries in your Plex
+    collection_files:
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/movies-charts.yml
+      schedule: weekly(thursday|sunday|tuesday)
+    - default: basic                 # This is a file within the defaults folder in the Repository
+      schedule: weekly(thursday|sunday|tuesday))
+    - default: imdb
+      schedule: weekly(thursday|sunday|tuesday)
+
+    remove_overlays: true
+    schedule_overlays: weekly(saturday|tuesday|thursday)
+    overlay_files:
+    - default: resolution                                                        # 1, 4
+    - default: audio_codec                                                       # 2
+    - default: mediastinger                                                      # 3
+    - default: ratings                                                           # 5, 6, 7
+      template_variables:
+        rating1: user                                                        # 5 as this is user and mass_user_rating_update: mdb_tomatoes
+        rating1_image: rt_tomato                                             # 5 as this is user and mass_user_rating_update: mdb_tomatoes
+        rating1_font: config/custom_fonts/Adlib.ttf                          # 5 local font accessible to Kometa
+        rating1_font_size: 63                                                # 5 adjusted font size to fit rating
+
+        rating2: critic                                                      # 6 as this is critic and mass_critic_rating_update: imdb
+        rating2_image: imdb                                                  # 6 as this is critic and mass_critic_rating_update: imdb
+        rating2_font: config/custom_fonts/Impact.ttf                         # 6 local font accessible to Kometa
+        rating2_font_size: 70                                                # 6 adjusted font size to fit rating
+
+        rating3: audience                                                    # 7 as this is audience and mass_audience_rating_update: tmdb
+        rating3_image: tmdb                                                  # 7 as this is audience and mass_audience_rating_update: tmdb
+        rating3_font: config/custom_fonts/Avenir_95_Black.ttf                # 7 local font accessible to Kometa
+        rating3_font_size: 70                                                # 7 adjusted font size to fit rating
+
+        horizontal_position: right                                           # the set of ratings is on the right of the poster
+    - default: streaming                                                         # 8
+    - default: video_format                                                      # 9
+#    - default: language_count                                                # 10
+#    - default: ribbon                                                        # 11, 12 Bottom right sash is used by more than one overlay so a weight for priority can be applied 
+    operations:
+      schedule: weekly(friday)
+      mass_user_rating_update: mdb_tomatoes                              # 5 This operation will update the user rating in plex with Rotten Tomatoes ratings information gathered through mdblist.com (mdblist config required)
+      mass_critic_rating_update: imdb                                    # 6 This operation will update the critic rating in plex with IMDb ratings information
+      mass_audience_rating_update: tmdb                                  # 7 This operation will update the audience rating in plex with TMDb ratings information       
+settings:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 0
+  create_asset_folders: false # if using yml files only and want show_missing_assets: true without log spam set to true
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 1
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_unconfigured: true
+  show_filtered: false
+  show_options: true
+  show_missing: true
+  show_missing_assets: false # Recommend false if using the yml files only to keep log cleaner at end set to true if using local assets.
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_users: all
+  playlist_exclude_users:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality: 75
+webhooks:                            # Can be individually specified per library as well
+  error: notifiarr
+  version: notifiarr
+  run_start: notifiarr
+  run_end: notifiarr
+  changes: notifiarr
+  delete: notifiarr
+plex:                                # Can be individually specified per library as well; REQUIRED for the script to run
+  url: http://192.168.1.11:32400
+  token:
+  timeout: 60
+  db_cache:
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+  verify_ssl:
+tmdb:                                # REQUIRED for the script to run
+  apikey:
+  language: en
+  cache_expiration: 60
+  region: GB
+tautulli:                            # Can be individually specified per library as well
+  url: http://tautulli:8181
+  apikey:
+#github:
+ # token: ################################
+#omdb:
+ # apikey: ########
+  #cache_expiration: 60
+mdblist:
+  apikey:
+  cache_expiration: 60
+notifiarr:
+  apikey:
+#gotify:
+ # url: http://192.168.1.12:80
+ # token: ####################################
+anidb:                               # Not required for AniDB builders unless you want mature content
+  username:
+  password:
+  version: 1
+  language: en
+  client:
+  cache_expiration: 60
+#radarr:                              # Can be individually specified per library as well
+ # url: http://radar:7878
+  #token:
+  #add_missing: false
+  #add_existing: false
+  #upgrade_existing: false
+  #monitor_existing: false
+  #root_folder_path: /rain/media/radar/en/
+  #monitor: true
+  #availability: In Cinemas
+  #quality_profile: Shit films min size with fallback
+  #tag: kometa
+  #search: false
+ # radarr_path:
+ # plex_path:
+  #ignore_cache: false
+#sonarr:                              # Can be individually specified per library as well
+#  url: http://192.168.1.12:8989
+ # token:
+  #add_missing: false
+  #add_existing: false
+  #upgrade_existing: false
+  #monitor_existing: false
+  #root_folder_path: S:/TV Shows
+  #monitor: all
+  #quality_profile: HD-1080p
+  #language_profile: English
+  #series_type: standard
+  #season_folder: true
+  #tag:
+  #search: false
+  #cutoff_search: false
+  #sonarr_path:
+  #plex_path:
+  #ignore_cache: false
+  #cache_expiration: 60
+  #ignore_cache: false
+  #radarr_path:
+  #plex_path:
+trakt:
+  client_id:
+  client_secret:
+  pin:
+  authorization:
+    # everything below is autofilled by the script
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:
+    scope:
+    created_at:
+mal:
+  localhost_url:
+  client_id:
+  client_secret:
+  authorization:
+    # everything below is autofilled by the script
+    access_token: 
+    token_type:
+    expires_in:
+    refresh_token:
+  cache_expiration:
+
+
+
