@@ -17,7 +17,7 @@ templates:
       limit: 1000 # setting this too high or removing will make kometa runs take a LONG time
       type: tv
       sort_by: score.desc
-      genre_id: <<genre_id>>
+      genre: <<genre_id>>
     collection_order: alpha
     collection_mode: hide
     sort_title: |-
