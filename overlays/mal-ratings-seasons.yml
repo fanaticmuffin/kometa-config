@@ -1,0 +1,47 @@
+templates:
+  MAL_Rating:
+    builder_level: season
+    overlay:
+      name: <<overlay_name>>
+      builder_level: season
+      url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/img/anime/rating/<<overlay_name>>.png
+      back_color: "#00000099"
+      back_radius: 30
+      back_width: 240
+      back_height: 120
+      horizontal_offset: 15
+      horizontal_align: left
+      vertical_offset: 30
+      vertical_align: bottom
+
+  User_Rating:
+    default:
+      rating_type: user_rating
+    builder_level: season
+    overlay:
+      name: text(<<rating_type>>)
+      font: fonts/Roboto-Bold.ttf
+      font_size: 70
+      font_color: "#FFFFFF"
+      horizontal_offset: 144
+      horizontal_align: left
+      vertical_offset: 64
+      vertical_align: bottom
+
+overlays:
+  MAL_Rating:
+    template: [name: MAL_Rating]
+    plex_search:
+      all:
+        season_label: Score
+        user_rating.gte: 0.1
+        user_rating.lte: 10
+
+
+  User_Rating:
+    template: [name: User_Rating]
+    plex_search:
+      all:
+        season_label: Score
+        user_rating.gte: 0.1
+        user_rating.lte: 10
