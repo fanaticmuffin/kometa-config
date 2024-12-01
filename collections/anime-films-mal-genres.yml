@@ -1,0 +1,105 @@
+##########################################
+##           Anime Collections          ##
+##########################################
+#                                        #
+#                Credits                 #
+#            Evil Tacctician             #
+#              JJJonesJr33               #
+#                                        #
+#   This is an edit of Evil Taccticians  #
+#   config. I've just made it use images #
+#   from my github, added genre and use  #
+#   that to sort.                        #
+##########################################
+templates:
+  MAL Genre:
+    mal_search:
+      limit: 250
+      type: movie
+      sort_by: score.desc
+      genre_id: <<genre_id>>
+    collection_order: alpha
+    collection_mode: hide
+    sort_title: |-
+      |zzzzz - <<genre>> - <<genre_id>>
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/genres/<<genre>>.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg #placeholder
+    sync_mode: sync 
+
+collections:   
+  Action:
+    template: { name: MAL Genre, genre: Action, genre_id: 1, }
+  Adventure:
+    template: { name: MAL Genre, genre: Adventure, genre_id: 2, }
+  Boys Love:
+    template: { name: MAL Genre, genre: Boys Love, genre_id: 28, }
+  Cars:
+    template: { name: MAL Genre, genre: Cars, genre_id: 3, }
+  Comedy:
+    template: { name: MAL Genre, genre: Comedy, genre_id: 4, }
+  Demons:
+    template: { name: MAL Genre, genre: Demons, genre_id: 6, }
+  Drama:
+    template: { name: MAL Genre, genre: Drama, genre_id: 8, }
+  Ecchi:
+    template: { name: MAL Genre, genre: Ecchi, genre_id: 9, }
+  Erotica:
+    template: { name: MAL Genre, genre: Erotica, genre_id: 49, }
+  Fantasy:
+    template: { name: MAL Genre, genre: Fantasy, genre_id: 10, }
+  Harem:
+    template: { name: MAL Genre, genre: Harem, genre_id: 35, }
+  Hentai:
+    template: { name: MAL Genre, genre: Hentai, genre_id: 12, }
+  Historical:
+    template: { name: MAL Genre, genre: Historical, genre_id: 13, }
+  Horror:
+    template: { name: MAL Genre, genre: Horror, genre_id: 14, }
+  Game:
+    template: { name: MAL Genre, genre: Game, genre_id: 11, }
+  Girls Love:
+    template: { name: MAL Genre, genre: Girls Love, genre_id: 26, }
+  Gourmet:
+    template: { name: MAL Genre, genre: Gourmet, genre_id: 47, }
+  Martial Arts:
+    template: { name: MAL Genre, genre: Martial Arts, genre_id: 17, }
+  Mecha:
+    template: { name: MAL Genre, genre: Mecha, genre_id: 18, }
+  Military:
+    template: { name: MAL Genre, genre: Military, genre_id: 38, }
+  Music:
+    template: { name: MAL Genre, genre: Music, genre_id: 19, }
+  Mystery:
+    template: { name: MAL Genre, genre: Mystery, genre_id: 7, }
+  Parody:
+    template: { name: MAL Genre, genre: Parody, genre_id: 20, }
+  Police:
+    template: { name: MAL Genre, genre: Police, genre_id: 39, }
+  Psychological:
+    template: { name: MAL Genre, genre: Psychological, genre_id: 40, }
+  Romance:
+    template: { name: MAL Genre, genre: Romance, genre_id: 22, }
+  Samurai:
+    template: { name: MAL Genre, genre: Samurai, genre_id: 21, }
+  School:
+    template: { name: MAL Genre, genre: School, genre_id: 23, }
+  Sci-Fi:
+    template: { name: MAL Genre, genre: Sci-Fi, genre_id: 24, }
+  Shoujo:
+    template: { name: MAL Genre, genre: Shoujo, genre_id: 25, }
+  Shounen:
+    template: { name: MAL Genre, genre: Shounen, genre_id: 27, }
+  Slice of Life:
+    template: { name: MAL Genre, genre: Slice of Life, genre_id: 36, }
+  Space:
+    template: { name: MAL Genre, genre: Space, genre_id: 29, }
+  Sports:
+    template: { name: MAL Genre, genre: Sports, genre_id: 30, }
+  Supernatural:
+    template: { name: MAL Genre, genre: Supernatural, genre_id: 37, }
+  Super Power:
+    template: { name: MAL Genre, genre: Super Power, genre_id: 31, }
+  Thriller:
+    template: { name: MAL Genre, genre: Thriller, genre_id: 41, }
+  Vampire:
+    template: { name: MAL Genre, genre: Vampire, genre_id: 32, }

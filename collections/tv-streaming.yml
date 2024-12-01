@@ -1,0 +1,50 @@
+collections:
+  Apple Originals:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +03_APPLE
+    imdb_list:
+      url:   https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0546168
+    summary: All Apple TV Originals From 2021-2025
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/apple_tv.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/apple_tv_background.png
+
+  Amazon Originals:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +03_Amazon
+    imdb_list:
+      url:   https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0319272
+    summary: All Amazon Originals From 2021-2025
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/prime_video.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/prime_video_background.png
+
+  Netflix Originals:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +03_Netflix
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0144901
+    summary: All Netflix Originals From 2021-2025
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/netflix.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/netflix_background.jpg
+
+  HBO Max Originals:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +03_HBOMAX
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0754095
+    summary: All HBO Max Originals From 2021-2025
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/hbo_max.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/hbo_max_background.png
+
+  HULU Originals:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +03_HULU
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0218858
+    summary: All HULU Originals From 2021-2025
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/hulu.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/streaming/hulu_background.jpg

@@ -1,0 +1,28 @@
+collections:
+  Top Unseen Anime Films:
+    collection_filtering: user
+    smart_filter:
+      all:
+        unplayed: true
+      sort_by: audience_rating.desc
+    sort_title: |-
+      zzzzz1 - Top Unseen Anime Films
+    collection_mode: hide
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  Studio Ghibli:
+    plex_search:
+      any:
+        studio: Studio Ghibli
+        director: Hayao Miyazaki
+      sort_by: release.asc
+    sort_title: |-
+      Studio Ghibli
+    collection_mode: hide_items
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/plex-smart-collections/Studio_Ghibli.png
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/Studio_Ghibli_background.jpg
