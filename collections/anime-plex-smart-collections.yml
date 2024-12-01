@@ -1,0 +1,46 @@
+collections:
+  Airing Now:
+    smart_filter:
+      all:
+        label: Airing
+      sort_by: title.asc
+    sort_title: |-
+      !0 - Airing Now
+    collection_mode: hide
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/plex-smart-collections/anime_airing_now.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg
+
+  Airing, Not Watched:
+    collection_filtering: user
+    smart_filter:
+      all:
+        label: Airing
+        unplayed_episodes: true
+      sort_by: viewed.desc
+    sort_title: |-
+      !1 - Airing, Not Watched
+    collection_mode: show_items
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/plex-smart-collections/anime_airing_not_watched.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg
+
+  Ended, Not Watched:
+    collection_filtering: user
+    smart_filter:
+      all:
+        label.not: Airing
+        unplayed_episodes: true
+      sort_by: added.desc
+    sort_title: |-
+      !2 - Ended, Not Watched
+    collection_mode: show_items
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/plex-smart-collections/anime_ended.jpg
+    url_background: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/background/collection_anime_background_1.jpg
