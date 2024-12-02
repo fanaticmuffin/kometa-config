@@ -4,12 +4,12 @@ libraries:
   Anime:
     metadata_files:
 # THE METADATA COMES FROM HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER AND IS REQUIRED FOR SOME OF THE OVERLAYS/COLLECTIONS BIG THANKS TO ARIALZ FOR MAKING THIS AND ALOT OF THE OVERLAYS/COLLECTIONS IN THIS
-# Can use -url or - file just note if you use -url you will need to fork or you will only have metadata for anime that you have in common with my list.
+# Can use - url or - file just note if you use -url you will need to fork or you will only have metadata for anime that you have in common with my list.
     - file: kometa-config/metadata/anilist-animes.yml
       schedule: weekly(thursday|sunday)
 
     collection_files:
-# Can use -url or -file and point locally.
+# Can use - url or - file and point locally.
 # EXAMPLE
 #    - file: kometa-config/collections/anime-awards.yml
 #    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-awards.yml
@@ -44,9 +44,9 @@ libraries:
 # Schedule for overlays to run change to what you want or comment out
     schedule_overlays: weekly(saturday|tuesday)
     overlay_files:
-# Can use -url or -file and point locally.
+# Can use - url or - file and point locally.
 # EXAMPLE
-#    - file: kometa-config//overlays/anime-awards.yml
+#    - file: kometa-config/overlays/anime-awards.yml
 #    - url:  https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-awards.yml
 # un/comment out anything you don't want
     
@@ -163,7 +163,7 @@ libraries:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-networks.yml
       schedule: weekly(sunday)
      
-# -defaults are basic pre made kometa collections
+
     - default: basic
       schedule: weekly(thursday|sunday|tuesday)
     - default: imdb
@@ -219,7 +219,7 @@ libraries:
     collection_files:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/movies-charts.yml
       schedule: weekly(thursday|sunday|tuesday)
-    - default: basic                 # This is a file within the defaults folder in the Repository
+    - default: basic 
       schedule: weekly(thursday|sunday|tuesday))
     - default: imdb
       schedule: weekly(thursday|sunday|tuesday)
@@ -310,7 +310,7 @@ webhooks:                            # Can be individually specified per library
   changes: notifiarr
   delete: notifiarr
 plex:                                # Can be individually specified per library as well; REQUIRED for the script to run
-  url: http://192.168.1.11:32400
+  url:
   token:
   timeout: 60
   db_cache:
@@ -324,7 +324,7 @@ tmdb:                                # REQUIRED for the script to run
   cache_expiration: 60
   region: GB
 tautulli:                            # Can be individually specified per library as well
-  url: http://tautulli:8181
+  url: 
   apikey:
 #github:
  # token: ################################
@@ -337,7 +337,7 @@ mdblist:
 notifiarr:
   apikey:
 #gotify:
- # url: http://192.168.1.12:80
+ # url: 
  # token: ####################################
 anidb:                               # Not required for AniDB builders unless you want mature content
   username:
@@ -347,32 +347,32 @@ anidb:                               # Not required for AniDB builders unless yo
   client:
   cache_expiration: 60
 #radarr:                              # Can be individually specified per library as well
- # url: http://radar:7878
+ # url: 
   #token:
   #add_missing: false
   #add_existing: false
   #upgrade_existing: false
   #monitor_existing: false
-  #root_folder_path: /rain/media/radar/en/
+  #root_folder_path:
   #monitor: true
   #availability: In Cinemas
-  #quality_profile: Shit films min size with fallback
+  #quality_profile:
   #tag: kometa
   #search: false
  # radarr_path:
  # plex_path:
   #ignore_cache: false
 #sonarr:                              # Can be individually specified per library as well
-#  url: http://192.168.1.12:8989
+#  url:
  # token:
   #add_missing: false
   #add_existing: false
   #upgrade_existing: false
   #monitor_existing: false
-  #root_folder_path: S:/TV Shows
+  #root_folder_path:
   #monitor: all
-  #quality_profile: HD-1080p
-  #language_profile: English
+  #quality_profile:
+  #language_profile:
   #series_type: standard
   #season_folder: true
   #tag:
