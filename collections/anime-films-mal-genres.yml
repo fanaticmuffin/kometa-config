@@ -42,7 +42,7 @@ collections:
   Drama:
     template: { name: MAL Genre, genre: Drama, genre_id: 8, poster: Drama, }
   Ecchi:
-    template: { name: MAL Genre, genre: Ecchi, genre_id: 9, poster: Echhi, }
+    template: { name: MAL Genre, genre: Ecchi, genre_id: 9, poster: Ecchi, }
   Erotica:
     template: { name: MAL Genre, genre: Erotica, genre_id: 49, poster: Erotica, }
   Fantasy:
