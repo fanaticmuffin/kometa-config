@@ -7,3 +7,4 @@ UUID
 /overlays/*Original Posters
 /overlays/*.jpg
 /overlays/*.png
+.DS_Store

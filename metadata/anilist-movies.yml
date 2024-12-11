@@ -99,6 +99,18 @@ metadata:
     studio: CoMix Wave
     audience_rating: 7.1
     critic_rating: 7.5
+  tt11032374:
+    title: |-
+      Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train
+    sort_title: |-
+      Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train
+    original_title: |-
+      Kimetsu no Yaiba: Mugen Ressha-hen
+    genre.sync: Anime,Action,Adventure,Drama,Fantasy,Mystery,Supernatural,Demons,Swordplay,Shounen,Tragedy,Trains,Male Protagonist,Body Horror,Super Power,Monster Girl,Primarily Teen Cast,CGI,Gore,Primarily Male Cast,Orphan,Travel
+    studio: ufotable
+    audience_rating: 8.4
+    critic_rating: 8.6
+    label: AA Winner
   tt15494038:
     title: |-
       Drifting Home
@@ -205,9 +217,9 @@ metadata:
       Howl‘s Moving Castle
     original_title: |-
       Howl no Ugoku Shiro
-    genre.sync: Anime,Adventure,Drama,Fantasy,Romance,Magic,Female Protagonist,Elderly Protagonist,Steampunk,Witch,War,Monster Boy,Shapeshifting,Heterosexual,Disability,Fairy Tale,Found Family
+    genre.sync: Anime,Adventure,Drama,Fantasy,Romance,Magic,Female Protagonist,Elderly Protagonist,Steampunk,Witch,War,Monster Boy,Shapeshifting,Disability,Heterosexual,Fairy Tale,Found Family
     studio: Studio Ghibli
-    audience_rating: 8.4
+    audience_rating: 8.5
     critic_rating: 8.7
   tt7236034:
     title: |-
@@ -249,7 +261,7 @@ metadata:
       Kiki's Delivery Service
     original_title: |-
       Majo no Takkyuubin
-    genre.sync: Anime,Adventure,Drama,Fantasy,Slice of Life,Coming of Age,Witch,Female Protagonist,Urban Fantasy,Magic,Primarily Female Cast,Work,Urban,Primarily Adult Cast,Aviation
+    genre.sync: Anime,Adventure,Drama,Fantasy,Slice of Life,Coming of Age,Witch,Female Protagonist,Urban Fantasy,Magic,Work,Primarily Female Cast,Urban,Primarily Adult Cast,Aviation
     studio: Studio Ghibli
     audience_rating: 8.1
     critic_rating: 8.2
@@ -264,6 +276,17 @@ metadata:
     studio: C-Station
     audience_rating: 8.3
     critic_rating: 8.4
+  tt31711040:
+    title: |-
+      Look Back
+    sort_title: |-
+      Look Back
+    original_title: |-
+      Look Back
+    genre.sync: Anime,Drama,Slice of Life,Drawing,Tragedy,Female Protagonist,Coming of Age,Primarily Female Cast,Otaku Culture,Hikikomori,Work,Meta,Rotoscoping,Autobiographical
+    studio: Studio Durian
+    audience_rating: 8.7
+    critic_rating: 8.7
   tt14759062:
     title: |-
       Mobile Suit Gundam SEED FREEDOM
@@ -274,7 +297,7 @@ metadata:
     genre.sync: Anime,Action,Drama,Mecha,Romance,Sci-Fi,Real Robot,Conspiracy,Ensemble Cast,Military,Heterosexual,Space Opera,Space,Super Robot,CGI,Class Struggle,Politics,Clone,Love Triangle
     studio: Sunrise
     audience_rating: 7.3
-    critic_rating: 7.7
+    critic_rating: 7.6
   tt0096283:
     title: |-
       My Neighbor Totoro
@@ -304,7 +327,7 @@ metadata:
       Nausicaä of the Valley of the Wind
     original_title: |-
       Kaze no Tani no Nausicaä
-    genre.sync: Anime,Action,Adventure,Drama,Fantasy,Sci-Fi,Environmental,Post-Apocalyptic,Lost Civilization,Female Protagonist,Philosophy,War,Aviation,Military,Eco-Horror,Kaiju,Survival,Primarily Adult Cast
+    genre.sync: Anime,Action,Adventure,Drama,Fantasy,Sci-Fi,Environmental,Post-Apocalyptic,Female Protagonist,Lost Civilization,Philosophy,War,Aviation,Military,Eco-Horror,Kaiju,Survival,Primarily Adult Cast
     studio: Studio Hibari
     audience_rating: 8.1
     critic_rating: 8.4
@@ -370,7 +393,7 @@ metadata:
       Princess Mononoke
     original_title: |-
       Mononoke-hime
-    genre.sync: Anime,Action,Adventure,Drama,Fantasy,Environmental,Mythology,Animals,Philosophy,War,Gods,Eco-Horror,Rural,Youkai,Demons,Female Protagonist,Revenge,Historical,Male Protagonist,Urban Fantasy,Guns,Disability,Travel,Archery,Primarily Adult Cast
+    genre.sync: Anime,Action,Adventure,Drama,Fantasy,Environmental,Philosophy,Animals,Mythology,War,Gods,Eco-Horror,Demons,Rural,Youkai,Revenge,Female Protagonist,Historical,Disability,Guns,Male Protagonist,Travel,Primarily Adult Cast
     studio: Studio Ghibli
     audience_rating: 8.4
     critic_rating: 8.7
@@ -416,7 +439,7 @@ metadata:
       Seishun Buta Yarou wa Odekake Sister no Yume wo Minai
     genre.sync: Anime,Drama,Psychological,Supernatural,Female Protagonist,Male Protagonist,Coming of Age,Primarily Female Cast,Primarily Teen Cast,Rehabilitation,Urban Fantasy,Family Life,School,Heterosexual
     studio: CloverWorks
-    audience_rating: 7.8
+    audience_rating: 7.9
     critic_rating: 7.8
   tt9507276:
     title: |-
@@ -436,7 +459,7 @@ metadata:
       Spirited Away
     original_title: |-
       Sen to Chihiro no Kamikakushi
-    genre.sync: Anime,Adventure,Drama,Fantasy,Supernatural,Coming of Age,Female Protagonist,Youkai,Urban Fantasy,Magic,Shapeshifting,Work,Isekai,Mythology,Gods,Witch,Philosophy,Anthropomorphism
+    genre.sync: Anime,Adventure,Drama,Fantasy,Supernatural,Coming of Age,Female Protagonist,Youkai,Shapeshifting,Magic,Urban Fantasy,Work,Isekai,Mythology,Gods,Witch,Philosophy,Anthropomorphism
     studio: Studio Ghibli
     audience_rating: 8.6
     critic_rating: 8.8
@@ -591,7 +614,7 @@ metadata:
       The Irregular at Magic High School: Reminiscence Arc
     original_title: |-
       Mahouka Koukou no Rettousei: Tsuioku-hen
-    genre.sync: Anime,Action,Romance,Sci-Fi,Supernatural,Magic,Heterosexual,Military,Incest,Male Protagonist,Urban Fantasy
+    genre.sync: Anime,Action,Romance,Sci-Fi,Supernatural,Magic,Heterosexual,Military,Incest,Male Protagonist,Tragedy,Urban Fantasy
     studio: 8-bit
     audience_rating: 7.5
     critic_rating: 7.7
