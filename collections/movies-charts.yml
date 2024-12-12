@@ -1,6 +1,6 @@
 templates:
   Chart:
-    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/charts<<poster>>.jpg
+    url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/charts/<<poster>>.jpg
     sort_title: +00<<num>><<collection_name>>
   RT:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
