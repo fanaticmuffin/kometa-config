@@ -4,52 +4,25 @@ libraries:
   Anime:
     metadata_files:
 # THE METADATA COMES FROM HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER AND IS REQUIRED FOR SOME OF THE OVERLAYS/COLLECTIONS BIG THANKS TO ARIALZ FOR MAKING THIS AND ALOT OF THE OVERLAYS/COLLECTIONS IN THIS
-# Can use - url or - file just note if you use -url you will need to fork or you will only have metadata for anime that you have in common with my list.
-    - file: kometa-config/metadata/anilist-animes.yml
-      schedule: weekly(thursday|sunday)
+    - file: config/metadata/anilist-animes.yml
+      schedule: weekly(monday|friday)
 
     collection_files:
-# Can use - url or - file and point locally.
-# EXAMPLE
-#    - file: kometa-config/collections/anime-awards.yml
-#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-awards.yml
-# comment out/remove/edit schedule: to run as you want or everyrun.
-# un/comment out anything you don't want
-      
-#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anilist-userlists.yml
-#      schedule: weekly(thursday|sunday)
-   
-#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-mal-genres.yml
-#      schedule: weekly(thursday|sunday)
-
-   
 # THE NEXT COLLECTIONS REQUIRE ROMAJI-RENAMER PLEASE SEE HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO # # THE NEXT COLLECTIONS REQUIRE ROMAJI-RENAMER PLEASE SEE HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO # # THE NEXT COLLECTIONS REQUIRE ROMAJI-RENAMER PLEASE SEE HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO #
-
 # Creates smart collections of anime based on labels
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-smart-collections.yml
-      schedule: weekly(thursday|sunday)
+      schedule: weekly(monday|friday)
 # Creates MULTIPLE collections for the SEASONS and YEAR (Summer 2020, Winter 2020, etc) of anime. This is a SEASON LEVEL collection
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-seasons.yml
-      schedule: weekly(thursday|sunday) 
+      schedule: weekly(monday|friday) 
 # Creates a collection of animes with the label anime awards
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-awards.yml
-      schedule: weekly(thursday|sunday)
+      schedule: weekly(monday|friday)
 
-#################################################### --- END OF COLLECTION SEGMENT --- ###########################################
-
-# Set this to true to reset/remove overlays
     remove_overlays: false
-# Force refreshes the overlays usefull sometimes  
     reapply_overlays: false
-# Schedule for overlays to run change to what you want or comment out
-    schedule_overlays: weekly(saturday|tuesday)
+    schedule_overlays: weekly(monday|friday)
     overlay_files:
-# Can use - url or - file and point locally.
-# EXAMPLE
-#    - file: kometa-config/overlays/anime-awards.yml
-#    - url:  https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-awards.yml
-# un/comment out anything you don't want
-    
 # THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO #  # THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO # # THE NEXT OVERLAYS REQUIRE ROMAJI-RENAMER HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER FOR MORE INFO #
 # Add an anime awards icon to shows
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-awards.yml
@@ -59,8 +32,6 @@ libraries:
 #    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anilist-userlists.yml
 # Add text overlays at a season level with your anilist status (watching, planned, dropped, etc)
 #    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anilist-userlists-seasons.yml
-# Add text overlay at a SEASON LEVEL with the season it aired (Summer 2020)
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-seasons.yml
 # Add ratings overlay
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-rating.yml
 # Add anilist ratings at a SEASON LEVEL
@@ -69,195 +40,371 @@ libraries:
 #    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/mal-ratings-seasons.yml
 # Add status text (Airing, Ended, etc)
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-status.yml
-    
+# Add text overlay at a SEASON LEVEL with the season it aired (Summer 2020)
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-seasons.yml
+
+#    - default: studio                                                     
+#      template_variables:
+#        horizontal_align: left
+#        horizontal_offset: 15
+#        vertical_align: bottom
+#        vertical_offset: 160
+#        back_color: "#00000099"
+#        back_radius: 30
+#        back_width: 350
+#        back_height: 120
  
   JP Films:
     metadata_files:
-# THE METADATA COMES FROM HTTPS://HUB.DOCKER.COM/R/ARIALZ/ROMAJI-RENAMER AND IS REQUIRED FOR SOME OF THE OVERLAYS/COLLECTIONS BIG THANKS TO ARIALZ FOR MAKING THIS AND ALOT OF THE OVERLAYS/COLLECTIONS IN THIS
-# Can use -url or - file just note if you use -url you will need to fork or you will only have metadata for anime that you have in common with my list.
-    - file: kometa-config/metadata/anilist-movies.yml
-      schedule: weekly(thursday|sunday)
+    - file: config/metadata/anilist-movies.yml
+      schedule: weekly(tuesday)
 
     collection_files:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-films-smart-collections.yml
-      schedule: weekly(thursday|sunday)
+      schedule: weekly(tuesday)
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-films-mal-genres.yml
-      schedule: weekly(thursday|sunday)
+      schedule: weekly(tuesday)
 
     remove_overlays: false
     reapply_overlays: false
-    schedule_overlays: weekly(saturday|tuesday)
+    schedule_overlays: weekly(tuesday)
     overlay_files:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-rating.yml
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/overlays/yml/anime-awards.yml
-    
-################### --- NOTHING PAST THIS POINT NEEDS ROMAJI RENAMER AND IS BASIC KOMETA STUFF --- ######################
+    - default: studio                                                     
+      template_variables:
+        horizontal_align: left
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 160
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 120
     - default: resolution
+      template_variables:
+        use_edition: false
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 270
+        font: fonts/Roboto-Bold.ttf
+        font_size: 60
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 110                                       
     - default: audio_codec
-    - default: mediastinger
-    - default: streaming
+      template_variables:
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 150
+        font: fonts/Roboto-Bold.ttf
+        font_size: 60
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 110
+    - default: video_format                                            
+      template_variables:
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 30
+        font: fonts/Roboto-Bold.ttf
+        font_size: 60
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 110
+################### --- NO LIBRARIES PAST THIS POINT NEEDS ROMAJI RENAMER AND IS BASIC KOMETA STUFF --- ######################
 
+  JP TV Shows:
+    collection_files:
+# -defaults are basic pre made kometa collections
+    - default: basic
+      schedule: weekly(wednesday)
+    - default: imdb
+      schedule: weekly(wednesday)
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-charts.yml
+#      schedule: weekly(thursday|sunday|tuesday)
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-streaming.yml
+#        schedule: weekly(thursday|sunday|tuesday)
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-networks.yml
+#      schedule: weekly(sunday)
+
+    remove_overlays: false
+    reapply_overlays: false
+    schedule_overlays: weekly(wednesday)
+    overlay_files:
+    - default: ratings                                                         
+      template_variables:
+#        rating1: user                                                       
+#        rating1_image: rt_tomato                                            
+#        rating1_font: config/custom_fonts/Adlib.ttf                          
+#        rating1_font_size: 63                                                
+#        rating1_horizontal_offset: 430
+#        rating1_vertical_offset: 30
+
+        rating2: critic                                                  
+        rating2_image: imdb                                               
+        rating2_font: config/custom_fonts/Impact.ttf                        
+        rating2_font_size: 70                                               
+        rating2_horizontal_offset: 230
+        rating2_vertical_offset: 35
+
+        rating3: audience                                                   
+        rating3_image: tmdb                                                 
+        rating3_font: config/custom_fonts/Avenir_95_Black.ttf             
+        rating3_font_size: 70                                             
+        rating3_horizontal_offset: 30
+        rating3_vertical_offset: 35
+
+        horizontal_position: left
+        vertical_position: bottom
+        back_color: "#00000099" 
+
+    - default: status
+      template_variables:
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 20
+        font: fonts/Roboto-Bold.ttf
+        font_size: 60
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 120
+    - default: network                                                                                                       
+      template_variables:
+        horizontal_align: left
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 220
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 120
+    - default: resolution                                                   
+      template_variables:
+        builder_level: episode
+    - default: audio_codec                                                   
+      template_variables:
+        builder_level: episode
+    - default: video_format                                                
+      template_variables:
+        builder_level: episode
+    - default: runtimes                                                 
+      template_variables:
+        builder_level: episode
+    - default: episode_info                                                   
+      template_variables:
+        builder_level: episode
+#    - default: ribbon                                                       
+    operations:
+      schedule: weekly(wednesday)
+      mass_user_rating_update: mdb_tomatoes                              
+      mass_critic_rating_update: imdb                                    
+      mass_audience_rating_update: tmdb                                 
 
   TV Shows:
     collection_files:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-charts.yml
-      schedule: weekly(thursday|sunday|tuesday)
- #   - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-streaming.yml
-    #    schedule: weekly(thursday|sunday|tuesday)
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-networks.yml
-      schedule: weekly(sunday)
+      schedule: weekly(thursday)
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-streaming.yml
+#        schedule: weekly(thursday)
+#    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-networks.yml
+#      schedule: weekly(sunday)
 
     remove_overlays: false
     reapply_overlays: false
-    schedule_overlays: weekly(saturday|tuesday)
+    schedule_overlays: weekly(thursday)
     overlay_files:
-    - default: mediastinger                                                      # 3
-    - default: ratings                                                           # 4, 5, 6
+    - default: ratings                                                         
       template_variables:
-        rating1: user                                                        # 4 as this is user and mass_user_rating_update: mdb_tomatoes
-        rating1_image: rt_tomato                                             # 4 as this is user and mass_user_rating_update: mdb_tomatoes
-        rating1_font: config/custom_fonts/Adlib.ttf                          # 4 local font accessible to Kometa
-        rating1_font_size: 63                                                # 4 adjusted font size to fit rating
+#        rating1: user                                                       
+#        rating1_image: rt_tomato                                            
+#        rating1_font: config/custom_fonts/Adlib.ttf                          
+#        rating1_font_size: 63                                                
+#        rating1_horizontal_offset: 430
+#        rating1_vertical_offset: 30
 
-        rating2: critic                                                      # 5 as this is critic and mass_critic_rating_update: imdb
-        rating2_image: imdb                                                  # 5 as this is critic and mass_critic_rating_update: imdb
-        rating2_font: config/custom_fonts/Impact.ttf                         # 5 local font accessible to Kometa
-        rating2_font_size: 70                                                # 5 adjusted font size to fit rating
+        rating2: critic                                                  
+        rating2_image: imdb                                               
+        rating2_font: config/custom_fonts/Impact.ttf                        
+        rating2_font_size: 70                                               
+        rating2_horizontal_offset: 230
+        rating2_vertical_offset: 35
 
-        rating3: audience                                                    # 6 as this is audience and mass_audience_rating_update: tmdb
-        rating3_image: tmdb                                                  # 6 as this is audience and mass_audience_rating_update: tmdb
-        rating3_font: config/custom_fonts/Avenir_95_Black.ttf                # 6 local font accessible to Kometa
-        rating3_font_size: 70                                                # 6 adjusted font size to fit rating
+        rating3: audience                                                   
+        rating3_image: tmdb                                                 
+        rating3_font: config/custom_fonts/Avenir_95_Black.ttf             
+        rating3_font_size: 70                                             
+        rating3_horizontal_offset: 30
+        rating3_vertical_offset: 35
 
-        horizontal_position: right                                           # the set of ratings is on the right of the poster
-    - default: streaming                                                         # 7
-    - default: resolution                                                        # 1
+        horizontal_position: left
+        vertical_position: bottom
+        back_color: "#00000099" 
+
+    - default: status
+      template_variables:
+        text_canceled: Canceled
+        text_returning: Returning
+        text_airing: Airing
+        text_ended: Ended
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 20
+        font: fonts/Roboto-Bold.ttf
+        font_size: 60
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 120
+    - default: network                                                                                                       
+      template_variables:
+        horizontal_align: left
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 220
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 120
+    - default: resolution                                                   
       template_variables:
         builder_level: episode
-    - default: audio_codec                                                       # 2
+    - default: audio_codec                                                   
       template_variables:
         builder_level: episode
-    - default: video_format                                                      # 5
+    - default: video_format                                                
       template_variables:
         builder_level: episode
-    - default: runtimes                                                          # 7
+    - default: runtimes                                                 
       template_variables:
         builder_level: episode
-    - default: episode_info                                                    # 6
+    - default: episode_info                                                   
       template_variables:
         builder_level: episode
-#    - default: ribbon                                                        # 10, 11 Bottom right sash is used by more than one overlay so a weight for priority can be applied 
+#    - default: ribbon                                             
     operations:
-      schedule: weekly(friday)
-      mass_user_rating_update: mdb_tomatoes                              # 4 This operation will update the user rating in plex with Rotten Tomatoes ratings information gathered through mdblist.com (mdblist config required)
-      mass_critic_rating_update: imdb                                    # 5 This operation will update the critic rating in plex with IMDb ratings information
-      mass_audience_rating_update: tmdb                                  # 6 This operation will update the audience rating in plex with TMDb ratings information
+      schedule: weekly(thursday)
+      mass_user_rating_update: mdb_tomatoes                          
+      mass_critic_rating_update: imdb                  
+      mass_audience_rating_update: tmdb                  
 
-
-  JP TV Shows:
-    collection_files:
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-charts.yml
-      schedule: weekly(thursday|sunday|tuesday)
- #   - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-streaming.yml
-    #    schedule: weekly(thursday|sunday|tuesday)
-    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/tv-networks.yml
-      schedule: weekly(sunday)
-     
-
-    - default: basic
-      schedule: weekly(thursday|sunday|tuesday)
-    - default: imdb
-      schedule: weekly(thursday|sunday|tuesday)
-
-    remove_overlays: false
-    reapply_overlays: false
-    schedule_overlays: weekly(saturday|tuesday)
-    overlay_files:
-    - default: mediastinger                                                      # 3
-    - default: ratings                                                           # 4, 5, 6
-      template_variables:
-        rating1: user                                                        # 4 as this is user and mass_user_rating_update: mdb_tomatoes
-        rating1_image: rt_tomato                                             # 4 as this is user and mass_user_rating_update: mdb_tomatoes
-        rating1_font: config/custom_fonts/Adlib.ttf                          # 4 local font accessible to Kometa
-        rating1_font_size: 63                                                # 4 adjusted font size to fit rating
-
-        rating2: critic                                                      # 5 as this is critic and mass_critic_rating_update: imdb
-        rating2_image: imdb                                                  # 5 as this is critic and mass_critic_rating_update: imdb
-        rating2_font: config/custom_fonts/Impact.ttf                         # 5 local font accessible to Kometa
-        rating2_font_size: 70                                                # 5 adjusted font size to fit rating
-        rating3: audience                                                    # 6 as this is audience and mass_audience_rating_update: tmdb
-        rating3_image: tmdb                                                  # 6 as this is audience and mass_audience_rating_update: tmdb
-        rating3_font: config/custom_fonts/Avenir_95_Black.ttf                # 6 local font accessible to Kometa
-        rating3_font_size: 70                                                # 6 adjusted font size to fit rating
-
-        horizontal_position: right                                           # the set of ratings is on the right of the poster
-    - default: streaming                                                         # 7
-    - default: resolution                                                        # 1
-      template_variables:
-        builder_level: episode
-    - default: audio_codec                                                       # 2
-      template_variables:
-        builder_level: episode
-    - default: video_format                                                      # 5
-      template_variables:
-        builder_level: episode
-    - default: runtimes                                                          # 7
-      template_variables:
-        builder_level: episode
-    - default: episode_info                                                    # 6
-      template_variables:
-        builder_level: episode
-#    - default: ribbon                                                        # 10, 11 Bottom right sash is used by more than one overlay so a weight for priority can be applied 
-    operations:
-      schedule: weekly(friday)
-      mass_user_rating_update: mdb_tomatoes                              # 4 This operation will update the user rating in plex with Rotten Tomatoes ratings information gathered through mdblist.com (mdblist config required)
-      mass_critic_rating_update: imdb                                    # 5 This operation will update the critic rating in plex with IMDb ratings information
-      mass_audience_rating_update: tmdb                                  # 6 This operation will update the audience rating in plex with TMDb ratings information
-
-      
-  Films: 
+  Films:
     collection_files:
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/movies-charts.yml
-      schedule: weekly(thursday|sunday|tuesday)
-    - default: basic 
-      schedule: weekly(thursday|sunday|tuesday))
+      schedule: weekly(saturday)
+    - default: basic
+      schedule: weekly(saturday)
     - default: imdb
-      schedule: weekly(thursday|sunday|tuesday)
+      schedule: weekly(saturday)
 
     remove_overlays: false
     reapply_overlays: false
-    schedule_overlays: weekly(saturday|tuesday|thursday)
-    overlay_files:
-    - default: resolution                                                        # 1, 4
-    - default: audio_codec                                                       # 2
-    - default: mediastinger                                                      # 3
-    - default: ratings                                                           # 5, 6, 7
+    schedule_overlays: weekly(sunday)
+    overlay_files:                                                                                                         
+    - default: ratings                                                         
       template_variables:
-        rating1: user                                                        # 5 as this is user and mass_user_rating_update: mdb_tomatoes
-        rating1_image: rt_tomato                                             # 5 as this is user and mass_user_rating_update: mdb_tomatoes
-        rating1_font: config/custom_fonts/Adlib.ttf                          # 5 local font accessible to Kometa
-        rating1_font_size: 63                                                # 5 adjusted font size to fit rating
+#        rating1: user                                                       
+#        rating1_image: rt_tomato                                            
+#        rating1_font: config/custom_fonts/Adlib.ttf                          
+#        rating1_font_size: 63                                                
+#        rating1_horizontal_offset: 430
+#        rating1_vertical_offset: 30
 
-        rating2: critic                                                      # 6 as this is critic and mass_critic_rating_update: imdb
-        rating2_image: imdb                                                  # 6 as this is critic and mass_critic_rating_update: imdb
-        rating2_font: config/custom_fonts/Impact.ttf                         # 6 local font accessible to Kometa
-        rating2_font_size: 70                                                # 6 adjusted font size to fit rating
+        rating2: critic                                                  
+        rating2_image: imdb                                               
+        rating2_font: config/custom_fonts/Impact.ttf                        
+        rating2_font_size: 70                                               
+        rating2_horizontal_offset: 230
+        rating2_vertical_offset: 40
 
-        rating3: audience                                                    # 7 as this is audience and mass_audience_rating_update: tmdb
-        rating3_image: tmdb                                                  # 7 as this is audience and mass_audience_rating_update: tmdb
-        rating3_font: config/custom_fonts/Avenir_95_Black.ttf                # 7 local font accessible to Kometa
-        rating3_font_size: 70                                                # 7 adjusted font size to fit rating
+        rating3: audience                                                   
+        rating3_image: tmdb                                                 
+        rating3_font: config/custom_fonts/Avenir_95_Black.ttf             
+        rating3_font_size: 70                                             
+        rating3_horizontal_offset: 30
+        rating3_vertical_offset: 40
 
-        horizontal_position: right                                           # the set of ratings is on the right of the poster
-    - default: streaming                                                         # 8
-    - default: video_format                                                      # 9
-#    - default: language_count                                                # 10
-#    - default: ribbon                                                        # 11, 12 Bottom right sash is used by more than one overlay so a weight for priority can be applied 
+        horizontal_position: left
+        vertical_position: bottom
+        back_color: "#00000099" 
+
+    - default: resolution   # eddition top center
+      template_variables:
+        use_resolution: false
+        horizontal_align: center
+        vertical_align: top
+        vertical_offset: 5
+        back_color: "#00000099"
+    - default: mediastinger
+      template_variables:  
+        horizontal_align: center
+        horizontal_offset: 230
+        vertical_align: top
+        vertical_offset: 5
+        back_color: "#00000099"
+    - default: studio                                                     
+      template_variables:
+        horizontal_align: left
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 225
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 120
+    - default: resolution   # res bottom right
+      template_variables:
+        use_edition: false
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 270
+        font: fonts/Roboto-Bold.ttf
+        font_size: 60
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 110                                       
+    - default: audio_codec
+      template_variables:
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 150
+        font: fonts/Roboto-Bold.ttf
+        font_size: 60
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 110
+    - default: video_format                                            
+      template_variables:
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 30
+        font: fonts/Roboto-Bold.ttf
+        font_size: 60
+        back_color: "#00000099"
+        back_radius: 30
+        back_width: 350
+        back_height: 110
+#    - default: language_count                                                
+#    - default: ribbon                                                     
     operations:
-      schedule: weekly(friday)
-      mass_user_rating_update: mdb_tomatoes                              # 5 This operation will update the user rating in plex with Rotten Tomatoes ratings information gathered through mdblist.com (mdblist config required)
-      mass_critic_rating_update: imdb                                    # 6 This operation will update the critic rating in plex with IMDb ratings information
-      mass_audience_rating_update: tmdb                                  # 7 This operation will update the audience rating in plex with TMDb ratings information       
+      schedule: weekly(saturday)
+      mass_user_rating_update: mdb_tomatoes                              
+      mass_critic_rating_update: imdb                                  
+      mass_audience_rating_update: tmdb       
 settings:
   run_order:
   - operations
