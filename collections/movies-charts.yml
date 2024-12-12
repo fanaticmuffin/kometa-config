@@ -3,12 +3,15 @@ templates:
     url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/charts/<<poster>>.jpg
     sort_title: +00<<num>><<collection_name>>
   RT:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
+    trakt_list: https://trakt.tv/users/<<user>>/lists/<<list>>
     sort_title: +007 Best of <<year>>
     url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/tv/charts/RT_<<poster>>-dark.jpg
     sync_mode: sync
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
+    radarr_add_missing: <<a>>
+    radarr_search: <<s>>
+    radarr_monitor: <<m>>
   Trakt: 
     sync_mode: sync
     collection_order: custom
@@ -17,7 +20,7 @@ templates:
     visible_home: <<home>>
     visible_shared: <<shared>>
     summary: trakt.tv - <<summary>>
-    radarr_add: <<a>>
+    radarr_add_missing: <<a>>
     radarr_search: <<s>>
     radarr_monitor: <<m>>
 collections:
@@ -61,19 +64,35 @@ collections:
   Box Office:
     trakt_boxoffice: true
     template: 
-      - { name: Trakt, library: false, home: false, shared: false, summary: Top 10 grossing movies in the U.S. box office last weekend. Updated every Monday morning., a: true, s: true, m: true }
+      - { name: Trakt, library: false, home: false, shared: false, summary: Top 10 grossing movies in the U.S. box office last weekend. Updated every Monday morning., a: true, s: false, m: true }
       - { name: Chart, poster: Box_Office-dark, num: 6 }
 # Best of
   Best of 2018:
-    template: { name: RT, year: 2018, poster: 18 }
+    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2018, poster: 2018, a: false, s: false, m: false }
   Best of 2019:
-    template: { name: RT, year: 2019, poster: 19 }
+    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2019, poster: 2019, a: false, s: false, m: false }
   Best of 2020:
-    template: { name: RT, year: 2020, poster: 20 }
+    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2020, poster: 2020, a: false, s: false, m: false }
   Best of 2021:
-    template: { name: RT, year: 2021, poster: 21 }
+    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2021, poster: 2021, a: false, s: false, m: false }
   Best of 2022:
-    template: { name: RT, year: 2022, poster: 22 }
+    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2022, poster: 2022, a: false, s: false, m: false }
+  Best of 2023:
+    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2023, poster: 2023, a: false, s: false, m: false }
+  Best of 2024:
+    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2024, poster: 2024, a: false, s: false, m: false }
+#  Best of 2025:
+#    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2025, poster: 2025, a: false, s: false, m: false }
+#  Best of 2026:
+#    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2026, poster: 2026, a: false, s: false, m: false }
+#  Best of 2027:
+#    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2027, poster: 2027, a: false, s: false, m: false }
+#  Best of 2028:
+#    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2028, poster: 2028, a: false, s: false, m: false }
+#  Best of 2029:
+#    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2029, poster: 2029, a: false, s: false, m: false }
+#  Best of 2030:
+#    template: { name: RT, user: lish408, list: rotten-tomatoes-best-of-2030, poster: 2030, a: false, s: false, m: false }
 # IMDB Top 250
   IMDB Top 250:
     imdb_chart: top_movies
