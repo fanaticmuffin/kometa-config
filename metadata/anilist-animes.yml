@@ -1,4 +1,4 @@
-# Romaji-Renamer v1.24+
+# Romaji-Renamer v1.25
 metadata:
   114801:
     title: |-
@@ -52,13 +52,13 @@ metadata:
       1:
         title: |-
           2.5 Jigen no Ririsa
-        label: Score,Watching,2024 Summer
-        label.remove: Completed,Dropped,Paused,Planning
+        label: Score,Dropped,2024 Summer
+        label.remove: Completed,Watching,Paused,Planning
         user_rating: 6.8
     audience_rating: 6.8
     critic_rating: 7.1
-    label: Airing,Watching
-    label.remove: Planned,Ended,Completed,Dropped,Paused,Planning
+    label: Ended,Dropped
+    label.remove: Planned,Airing,Completed,Watching,Paused,Planning
   389250:
     title: |-
       2.43: Seiin Koukou Danshi Volley-bu
@@ -391,8 +391,8 @@ metadata:
         user_rating: 7.3
     audience_rating: 7.2
     critic_rating: 7.5
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   280329:
     title: |-
       Akame ga Kill!
@@ -566,13 +566,13 @@ metadata:
       1:
         title: |-
           Amagami-san Chi no Enmusubi
-        label: Score,Watching,2024 Fall
-        label.remove: Completed,Dropped,Paused,Planning
+        label: Score,Dropped,2024 Fall
+        label.remove: Completed,Watching,Paused,Planning
         user_rating: 6.6
     audience_rating: 6.6
     critic_rating: 6.9
-    label: Airing,Watching
-    label.remove: Planned,Ended,Completed,Dropped,Paused,Planning
+    label: Airing,Dropped
+    label.remove: Planned,Ended,Completed,Watching,Paused,Planning
   150471:
     title: |-
       Angel Beats!
@@ -690,13 +690,13 @@ metadata:
       4:
         title: |-
           Ao no Exorcist: Yuki no Hate-hen
-        label: Score,Watching,2024 Fall
-        label.remove: Completed,Dropped,Paused,Planning
+        label: Score,Paused,2024 Fall
+        label.remove: Completed,Watching,Dropped,Planning
         user_rating: 7.1
     audience_rating: 7.1
     critic_rating: 7.3
-    label: Airing,Watching
-    label.remove: Planned,Ended,Dropped,Paused,Planning
+    label: Airing,Paused
+    label.remove: Planned,Ended,Watching,Dropped,Planning
   429934:
     title: |-
       Ao no Hako
@@ -910,13 +910,13 @@ metadata:
       1:
         title: |-
           Astro Note
-        label: Score,Watching,2024 Spring
-        label.remove: Completed,Dropped,Paused,Planning
+        label: Score,Dropped,2024 Spring
+        label.remove: Completed,Watching,Paused,Planning
         user_rating: 6.4
     audience_rating: 6.4
     critic_rating: 6.6
-    label: Ended,Watching
-    label.remove: Planned,Airing,Completed,Dropped,Paused,Planning
+    label: Ended,Dropped
+    label.remove: Planned,Airing,Completed,Watching,Paused,Planning
   87981:
     title: |-
       Asura Cryin'
@@ -976,13 +976,13 @@ metadata:
       1:
         title: |-
           ATRI: My Dear Moments
-        label: Score,Watching,2024 Summer
-        label.remove: Completed,Dropped,Paused,Planning
+        label: Score,Dropped,2024 Summer
+        label.remove: Completed,Watching,Paused,Planning
         user_rating: 7.0
     audience_rating: 7.0
     critic_rating: 7.2
-    label: Ended,Watching
-    label.remove: Planned,Airing,Completed,Dropped,Paused,Planning
+    label: Ended,Dropped
+    label.remove: Planned,Airing,Completed,Watching,Paused,Planning
   426440:
     title: |-
       Ayaka
@@ -1165,8 +1165,8 @@ metadata:
         user_rating: 8.7
     audience_rating: 8.5
     critic_rating: 8.5
-    label: Ended,Paused
-    label.remove: Planned,Airing,Planning
+    label: Ended,Watching
+    label.remove: Planned,Airing,Dropped,Paused,Planning
   70799:
     title: |-
       Bakuten Shoot Beyblade
@@ -1312,13 +1312,13 @@ metadata:
       1:
         title: |-
           Bartender: Kami no Glass
-        label: Score,Watching,2024 Spring
-        label.remove: Completed,Dropped,Paused,Planning
+        label: Score,Dropped,2024 Spring
+        label.remove: Completed,Watching,Paused,Planning
         user_rating: 7.3
     audience_rating: 7.3
     critic_rating: 7.4
-    label: Ended,Watching
-    label.remove: Planned,Airing,Completed,Dropped,Paused,Planning
+    label: Ended,Dropped
+    label.remove: Planned,Airing,Completed,Watching,Paused,Planning
   398095:
     title: |-
       Battle Athletess Daiundoukai: ReSTART!
@@ -1361,8 +1361,14 @@ metadata:
         label: Score,Completed,2021 Winter
         label.remove: Watching,Dropped,Paused,Planning
         user_rating: 7.8
+      3:
+        title: |-
+          BEASTARS FINAL SEASON Part 1
+        label: Score,2024 Fall
+        label.remove: Completed,Watching,Dropped,Paused,Planning
+        user_rating: 7.8
     audience_rating: 7.8
-    critic_rating: 7.8
+    critic_rating: 7.9
     label: AA Winner,Ended,Completed
     label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   337020:
@@ -1892,8 +1898,8 @@ metadata:
         user_rating: 8.1
     audience_rating: 7.8
     critic_rating: 7.9
-    label: AA Winner,Planned,Paused
-    label.remove: Airing,Ended,Watching,Planning
+    label: AA Winner,Planned,Completed
+    label.remove: Airing,Ended,Watching,Dropped,Paused,Planning
   334706:
     title: |-
       Boku no Kanojo ga Majime Sugiru Shoujo Bitch na Ken
@@ -2606,8 +2612,8 @@ metadata:
         user_rating: 8.7
     audience_rating: 8.6
     critic_rating: 8.8
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   262093:
     title: |-
       CØde:breaker
@@ -3046,8 +3052,8 @@ metadata:
         user_rating: 8.4
     audience_rating: 8.4
     critic_rating: 8.6
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   289177:
     title: |-
       Death Parade
@@ -3876,8 +3882,8 @@ metadata:
         user_rating: 6.8
     audience_rating: 6.8
     critic_rating: 7.3
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   278626:
     title: |-
       Fate/stay night: Unlimited Blade Works
@@ -4828,8 +4834,8 @@ metadata:
         user_rating: 8.4
     audience_rating: 8.5
     critic_rating: 8.6
-    label: AA Winner,Planned,Paused
-    label.remove: Airing,Ended,Watching,Planning
+    label: AA Winner,Planned,Completed
+    label.remove: Airing,Ended,Watching,Dropped,Paused,Planning
   329422:
     title: |-
       Hajimete no Gal
@@ -5787,8 +5793,8 @@ metadata:
         user_rating: 8.1
     audience_rating: 7.9
     critic_rating: 8.1
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   283937:
     title: |-
       Inou-Battle wa Nichijou-kei no Naka de
@@ -6633,8 +6639,8 @@ metadata:
         user_rating: 7.3
     audience_rating: 7.2
     critic_rating: 7.5
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   87501:
     title: |-
       K-on!
@@ -7853,8 +7859,8 @@ metadata:
         user_rating: 8.1
     audience_rating: 8.3
     critic_rating: 8.4
-    label: AA Winner,Planned,Paused
-    label.remove: Airing,Ended,Watching,Planning
+    label: AA Winner,Planned,Completed
+    label.remove: Airing,Ended,Watching,Dropped,Paused,Planning
   432050:
     title: |-
       Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo
@@ -8441,8 +8447,8 @@ metadata:
         user_rating: 7.1
     audience_rating: 7.0
     critic_rating: 7.4
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   406168:
     title: |-
       Koroshi Ai
@@ -8521,8 +8527,8 @@ metadata:
         user_rating: 7.0
     audience_rating: 7.0
     critic_rating: 7.3
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   420084:
     title: |-
       Kubo-san wa Mob wo Yurusanai
@@ -8675,8 +8681,8 @@ metadata:
         user_rating: 8.1
     audience_rating: 8.0
     critic_rating: 8.2
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   307365:
     title: |-
       Kuromukuro
@@ -8803,8 +8809,8 @@ metadata:
         user_rating: 7.4
     audience_rating: 7.4
     critic_rating: 7.7
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   402227:
     title: |-
       Kyoukai Senki
@@ -9211,8 +9217,8 @@ metadata:
         user_rating: 8.5
     audience_rating: 8.5
     critic_rating: 8.6
-    label: AA Winner,Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: AA Winner,Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   75001:
     title: |-
       Madlax
@@ -9745,8 +9751,8 @@ metadata:
         user_rating: 5.3
     audience_rating: 5.8
     critic_rating: 6.0
-    label: Airing,Completed
-    label.remove: Planned,Ended,Watching,Dropped,Paused,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   397250:
     title: |-
       Mars Red
@@ -11657,8 +11663,8 @@ metadata:
         user_rating: 8.0
     audience_rating: 7.7
     critic_rating: 7.9
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   429994:
     title: |-
       Overtake!
@@ -12011,8 +12017,8 @@ metadata:
         user_rating: 7.3
     audience_rating: 7.5
     critic_rating: 7.7
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   443345:
     title: |-
       Puniru wa Kawaii Slime
@@ -13768,7 +13774,7 @@ metadata:
     audience_rating: 8.3
     critic_rating: 8.4
     label: Ended,Planning
-    label.remove: Planned,Airing,Watching,
+    label.remove: Planned,Airing,Watching,Dropped,Paused,
   369048:
     title: |-
       Shinchou Yuusha: Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru
@@ -13873,8 +13879,8 @@ metadata:
         user_rating: 8.6
     audience_rating: 8.5
     critic_rating: 8.7
-    label: AA Winner,Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: AA Winner,Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   398555:
     title: |-
       Shinigami Bocchan to Kuro Maid
@@ -15817,8 +15823,8 @@ metadata:
         user_rating: 7.1
     audience_rating: 6.9
     critic_rating: 7.3
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   83322:
     title: |-
       Toaru Majutsu no Index
@@ -15941,8 +15947,8 @@ metadata:
         user_rating: 6.1
     audience_rating: 6.7
     critic_rating: 7.1
-    label: Ended,Paused
-    label.remove: Planned,Airing,Watching,Planning
+    label: Ended,Completed
+    label.remove: Planned,Airing,Watching,Dropped,Paused,Planning
   272043:
     title: |-
       Tokyo Ravens
