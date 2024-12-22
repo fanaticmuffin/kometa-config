@@ -160,7 +160,7 @@ metadata:
       GREAT PRETENDER: razbliuto
     original_title: |-
       GREAT PRETENDER razbliuto
-    genre.sync: Anime,Action,Drama,Thriller,Triads,Amnesia,Foreign,Crime,Female Protagonist,Revenge
+    genre.sync: Anime,Action,Drama,Thriller,Triads,Amnesia,Foreign,Crime,Female Protagonist,Revenge,Travel,Yakuza
     studio: Wit Studio
     audience_rating: 6.9
     critic_rating: 6.8
@@ -185,7 +185,7 @@ metadata:
       Hoohokekyo Tonari no Yamada-kun
     original_title: |-
       My Neighbors the Yamadas
-    genre.sync: Anime,Comedy,Slice of Life,Ensemble Cast,Family Life,Achronological Order
+    genre.sync: Anime,Comedy,Slice of Life,Ensemble Cast,Episodic,Family Life,Achronological Order,Chibi,Rotoscoping
     studio: Studio Ghibli
     audience_rating: 6.9
     critic_rating: 7.1
@@ -349,7 +349,7 @@ metadata:
       Kimi no Na wa.
     original_title: |-
       Your Name.
-    genre.sync: Anime,Drama,Romance,Supernatural,Body Swapping,Time Manipulation,Urban Fantasy,Coming of Age,Memory Manipulation,Female Protagonist,Philosophy,Tragedy,Urban,Gender Bending,Time Skip
+    genre.sync: Anime,Drama,Romance,Supernatural,Body Swapping,Time Manipulation,Urban Fantasy,Memory Manipulation,Coming of Age,Female Protagonist,Tragedy,Urban,Time Skip,Gender Bending
     studio: CoMix Wave
     audience_rating: 8.5
     critic_rating: 8.8
@@ -464,7 +464,7 @@ metadata:
       Look Back
     original_title: |-
       Look Back
-    genre.sync: Anime,Drama,Slice of Life,Drawing,Tragedy,Female Protagonist,Coming of Age,Primarily Female Cast,Otaku Culture,Hikikomori,Work,Meta
+    genre.sync: Anime,Drama,Slice of Life,Drawing,Female Protagonist,Tragedy,Coming of Age,Primarily Female Cast,Otaku Culture,Hikikomori,Work,Meta
     studio: Studio Durian
     audience_rating: 8.7
     critic_rating: 8.7
@@ -665,7 +665,7 @@ metadata:
       Seishun Buta Yarou wa Odekake Sister no Yume wo Minai
     original_title: |-
       Rascal Does Not Dream of a Sister Venturing Out
-    genre.sync: Anime,Drama,Psychological,Supernatural,Female Protagonist,Male Protagonist,Coming of Age,Primarily Female Cast,Primarily Teen Cast,Rehabilitation,Urban Fantasy,Family Life
+    genre.sync: Anime,Drama,Psychological,Supernatural,Female Protagonist,Coming of Age,Male Protagonist,Primarily Female Cast,Primarily Teen Cast,Rehabilitation,Urban Fantasy,Family Life
     studio: CloverWorks
     audience_rating: 7.9
     critic_rating: 7.8
@@ -703,7 +703,7 @@ metadata:
       Sen to Chihiro no Kamikakushi
     original_title: |-
       Spirited Away
-    genre.sync: Anime,Adventure,Drama,Fantasy,Supernatural,Coming of Age,Female Protagonist,Youkai,Shapeshifting,Magic,Urban Fantasy,Work,Isekai,Mythology
+    genre.sync: Anime,Adventure,Drama,Fantasy,Supernatural,Coming of Age,Female Protagonist,Youkai,Shapeshifting,Magic,Urban Fantasy,Work,Mythology
     studio: Studio Ghibli
     audience_rating: 8.6
     critic_rating: 8.8
