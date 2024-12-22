@@ -18,6 +18,9 @@ libraries:
 # Creates a collection of animes with the label anime awards
     - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anime-awards.yml
       schedule: weekly(monday|friday)
+# Creates collections based on your anilist status (planned, watching etc)
+    - url: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/anilist-userlists.yml
+      schedule: weekly(monday|friday)
 
     remove_overlays: false
     reapply_overlays: false
@@ -54,7 +57,7 @@ libraries:
 #        back_width: 350
 #        back_height: 120
  
-  JP Films:
+  Foreign Films:
     metadata_files:
     - file: config/metadata/anilist-movies.yml
       schedule: weekly(tuesday)
@@ -120,7 +123,7 @@ libraries:
         back_height: 110
 ################### --- NO LIBRARIES PAST THIS POINT NEEDS ROMAJI RENAMER AND IS BASIC KOMETA STUFF --- ######################
 
-  JP TV Shows:
+  Foreign TV Shows:
     collection_files:
 # -defaults are basic pre made kometa collections
     - default: basic
@@ -148,22 +151,26 @@ libraries:
 #        rating1_vertical_offset: 30
 
         rating2: critic                                                  
-        rating2_image: imdb                                               
+        rating2_image: imdb                                              
         rating2_font: config/custom_fonts/Impact.ttf                        
-        rating2_font_size: 70                                               
-        rating2_horizontal_offset: 230
-        rating2_vertical_offset: 35
+        rating2_font_size: 60                                               
+        rating2_horizontal_offset: 30
+        rating2_vertical_offset: 40
+
 
         rating3: audience                                                   
         rating3_image: tmdb                                                 
         rating3_font: config/custom_fonts/Avenir_95_Black.ttf             
-        rating3_font_size: 70                                             
+        rating3_font_size: 60                                             
         rating3_horizontal_offset: 30
-        rating3_vertical_offset: 35
+        rating3_vertical_offset: 160
+        addon_offset: 35
 
+        rating_alignment: horizontal
         horizontal_position: left
         vertical_position: bottom
-        back_color: "#00000099" 
+        back_color: "#00000099"
+        back_width: 320
 
     - default: status
       template_variables:
@@ -182,7 +189,7 @@ libraries:
         horizontal_align: left
         horizontal_offset: 15
         vertical_align: bottom
-        vertical_offset: 220
+        vertical_offset: 270
         back_color: "#00000099"
         back_radius: 30
         back_width: 350
@@ -232,22 +239,26 @@ libraries:
 #        rating1_vertical_offset: 30
 
         rating2: critic                                                  
-        rating2_image: imdb                                               
+        rating2_image: imdb                                              
         rating2_font: config/custom_fonts/Impact.ttf                        
-        rating2_font_size: 70                                               
-        rating2_horizontal_offset: 230
-        rating2_vertical_offset: 35
+        rating2_font_size: 60                                               
+        rating2_horizontal_offset: 30
+        rating2_vertical_offset: 40
+
 
         rating3: audience                                                   
         rating3_image: tmdb                                                 
         rating3_font: config/custom_fonts/Avenir_95_Black.ttf             
-        rating3_font_size: 70                                             
+        rating3_font_size: 60                                             
         rating3_horizontal_offset: 30
-        rating3_vertical_offset: 35
+        rating3_vertical_offset: 160
+        addon_offset: 35
 
+        rating_alignment: horizontal
         horizontal_position: left
         vertical_position: bottom
-        back_color: "#00000099" 
+        back_color: "#00000099"
+        back_width: 320
 
     - default: status
       template_variables:
@@ -270,7 +281,7 @@ libraries:
         horizontal_align: left
         horizontal_offset: 15
         vertical_align: bottom
-        vertical_offset: 220
+        vertical_offset: 270
         back_color: "#00000099"
         back_radius: 30
         back_width: 350
@@ -320,22 +331,26 @@ libraries:
 #        rating1_vertical_offset: 30
 
         rating2: critic                                                  
-        rating2_image: imdb                                               
+        rating2_image: imdb                                              
         rating2_font: config/custom_fonts/Impact.ttf                        
-        rating2_font_size: 70                                               
-        rating2_horizontal_offset: 230
+        rating2_font_size: 60                                               
+        rating2_horizontal_offset: 30
         rating2_vertical_offset: 40
+
 
         rating3: audience                                                   
         rating3_image: tmdb                                                 
         rating3_font: config/custom_fonts/Avenir_95_Black.ttf             
-        rating3_font_size: 70                                             
+        rating3_font_size: 60                                             
         rating3_horizontal_offset: 30
-        rating3_vertical_offset: 40
+        rating3_vertical_offset: 160
+        addon_offset: 35
 
+        rating_alignment: horizontal
         horizontal_position: left
         vertical_position: bottom
-        back_color: "#00000099" 
+        back_color: "#00000099"
+        back_width: 320
 
     - default: resolution   # eddition top center
       template_variables:
@@ -356,7 +371,7 @@ libraries:
         horizontal_align: left
         horizontal_offset: 15
         vertical_align: bottom
-        vertical_offset: 225
+        vertical_offset: 270
         back_color: "#00000099"
         back_radius: 30
         back_width: 350
@@ -402,9 +417,9 @@ libraries:
 #    - default: ribbon                                                     
     operations:
       schedule: weekly(saturday)
-      mass_user_rating_update: mdb_tomatoes                              
+#      mass_user_rating_update: mdb_tomatoes                              
       mass_critic_rating_update: imdb                                  
-      mass_audience_rating_update: tmdb       
+      mass_audience_rating_update: tmdb      
 settings:
   run_order:
   - operations
