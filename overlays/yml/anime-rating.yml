@@ -14,7 +14,7 @@ templates:
 
   Audience_Rating:
     default:
-      rating_type: audience_rating
+      rating_type: audience_rating#
     overlay:
       name: text(<<rating_type>>)
       font: fonts/Roboto-Bold.ttf
@@ -40,7 +40,7 @@ templates:
 
   Critic_Rating:
     default:
-      rating_type: critic_rating
+      rating_type: critic_rating#
     overlay:
       name: text(<<rating_type>>)
       font: fonts/Roboto-Bold.ttf
