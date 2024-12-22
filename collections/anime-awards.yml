@@ -5,7 +5,7 @@ templates:
       all:
         label: <<label>>
     sort_title: |-
-      |animes-season - <<year>> - <<season>>
+      |Anime-Awards
     sync_mode: sync
     collection_mode: hide
     url_poster: https://raw.githubusercontent.com/fanaticmuffin/kometa-config/main/collections/img/anime/anime-awards/<<collection_name>>.png
