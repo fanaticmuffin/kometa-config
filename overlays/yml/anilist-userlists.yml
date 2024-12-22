@@ -54,7 +54,7 @@ overlays:
       all:
         label: paused
 
-  dropped:
+  Dropped:
     template:
       - name: anilist-userlists
         weight: 10
