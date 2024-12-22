@@ -3,7 +3,7 @@ templates:
     default:
       overlay: <<overlay_name>>
       horizontal_offset: 15
-      horizontal_align: left
+      horizontal_align: right
       vertical_offset: 165
       vertical_align: bottom
     overlay:

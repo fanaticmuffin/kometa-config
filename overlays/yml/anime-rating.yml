@@ -33,9 +33,9 @@ templates:
       back_radius: 30
       back_width: 240
       back_height: 120
-      horizontal_offset: 270
+      horizontal_offset: 15
       horizontal_align: left
-      vertical_offset: 30
+      vertical_offset: 170
       vertical_align: bottom
 
   Critic_Rating:
@@ -46,9 +46,9 @@ templates:
       font: fonts/Roboto-Bold.ttf
       font_size: 70
       font_color: "#FFFFFF"
-      horizontal_offset: 399
+      horizontal_offset: 144
       horizontal_align: left
-      vertical_offset: 64
+      vertical_offset: 204
       vertical_align: bottom
 
 overlays:
