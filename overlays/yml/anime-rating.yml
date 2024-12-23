@@ -35,7 +35,7 @@ templates:
       back_height: 120
       horizontal_offset: 15
       horizontal_align: left
-      vertical_offset: 170
+      vertical_offset: 160
       vertical_align: bottom
 
   Critic_Rating:
@@ -48,7 +48,7 @@ templates:
       font_color: "#FFFFFF"
       horizontal_offset: 144
       horizontal_align: left
-      vertical_offset: 204
+      vertical_offset: 194
       vertical_align: bottom
 
 overlays:
